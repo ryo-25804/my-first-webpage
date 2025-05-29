@@ -2,27 +2,54 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>私の最初のホームページ</title>
-  <style>
-    body {
-      background-color: #e0f7fa;
-      color: #333333;
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    h1 {
-      color: #333333;
-    }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>千葉県の紹介</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>ようこそ!</h1>
-  <p><strong>名前:</strong> 片山 凌 </p>
-  <p><strong>学部学科:</strong> 理工学部 応用情報工学科</p>
-  <p><strong>趣味:</strong> </p>
+  <header>
+    <h1>ようこそ！千葉県のホームページへ</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">千葉県について</a></li>
+        <li><a href="#sightseeing">観光地</a></li>
+        <li><a href="#specialty">名物・グルメ</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>千葉県について</h2>
+      <p>千葉県は関東地方に位置し、東京湾と太平洋に面した自然豊かな地域です。東京ディズニーリゾートや成田国際空港があることでも有名です。</p>
+    </section>
+
+    <section id="sightseeing">
+      <h2>人気の観光地</h2>
+      <ul>
+        <li>東京ディズニーリゾート（浦安市）</li>
+        <li>鴨川シーワールド</li>
+        <li>成田山新勝寺</li>
+        <li>鋸山・地獄のぞき</li>
+        <li>九十九里浜</li>
+      </ul>
+    </section>
+
+    <section id="specialty">
+      <h2>名物・グルメ</h2>
+      <p>千葉県は落花生の生産地として有名で、その他にも「なめろう」「伊勢海老」「アジフライ」などの海産物グルメが楽しめます。</p>
+    </section>
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>ご質問やご意見は、以下のメールアドレスまでお気軽にどうぞ：</p>
+      <p><a href="mailto:info@chiba-example.jp">info@chiba-example.jp</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 千葉県紹介サイト</p>
+  </footer>
 </body>
 </html>
